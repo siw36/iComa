@@ -1,0 +1,5 @@
+---
+- name: Install from Appstore
+  shell: |
+    mas install {{ item }}
+  loop: "{{ appstore }}"

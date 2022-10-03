@@ -1,0 +1,27 @@
+---
+hostname: glados3
+
+brew:
+  - stats
+  - git
+  - gnu-tar
+  - watch
+  - wget
+  - vim
+  - rectangle
+brewCasks:
+  - kitty
+  - brave-browser
+  - vscodium
+  - dbeaver-community
+  - gimp
+  - keepassxc
+  - postman
+  - obs
+  - clipy
+  - docker
+  - mas
+
+appstore:
+  - 1553936137 # Azure VPN Client
+  - 732710998 # Enpass

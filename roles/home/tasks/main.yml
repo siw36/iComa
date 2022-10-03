@@ -1,0 +1,6 @@
+---
+- name: Copy SSH keys and configs
+
+- name: Copy ZSH rc
+
+- name: Copy code

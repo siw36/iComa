@@ -1,0 +1,8 @@
+---
+- name: Configure hostnames
+  shell: "{{ item }}"
+  become: true
+  loop:
+    - scutil --set ComputerName {{ hostname }}
+    - scutil --set HostName {{ hostname }}
+    - scutil --set  LocalHostname {{ hostname }}

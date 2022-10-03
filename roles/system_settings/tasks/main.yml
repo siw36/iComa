@@ -1,0 +1,6 @@
+- include_tasks: hostname.yml
+
+- include_tasks: finder.yml
+
+- include_tasks: appearance.yml
+

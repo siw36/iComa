@@ -1,0 +1,18 @@
+---
+- name: Always show to top bar
+
+- name: Remove all items from the dock
+  shell: |
+    defaults write com.apple.dock persistent-apps -array
+
+- name: Disable reordering of spaces in Mission Control
+  shell: |
+    defaults write com.apple.dock mru-spaces -bool false
+
+- name: Automatically hide the dock
+  shell: |
+    defaults write com.apple.dock autohide -bool true
+
+- name: Visualize CPU usage in the Activity Monitor Dock icon
+  shell: |
+    defaults write com.apple.ActivityMonitor IconType -int 5
